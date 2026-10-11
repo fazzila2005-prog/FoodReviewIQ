@@ -1,0 +1,32 @@
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Raw and processed datasets
+data/raw/
+data/processed/
+
+# Vector database
+data/chroma_db/
+chroma_db/
+
+# Local machine and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
